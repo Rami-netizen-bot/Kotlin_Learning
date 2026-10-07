@@ -37,3 +37,7 @@ fun main() {
         println(order)
     }
 }
+
+data class ReferentypeExample(
+    val referentype : String,
+)

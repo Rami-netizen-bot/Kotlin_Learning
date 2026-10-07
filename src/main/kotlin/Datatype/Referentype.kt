@@ -11,6 +11,8 @@ data class BankAccount(
     val currency: String,
 )
 
+
+
 fun main() {
     val savingAccount: BankAccount = BankAccount(        // instance obj
         accountNumber = "10005155",
