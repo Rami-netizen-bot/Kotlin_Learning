@@ -22,7 +22,6 @@ fun getAccount(list: List<String>, onResult: (String) -> Unit) {
         }
         println(item)
     }
-
 }
 
 /**

@@ -1,0 +1,157 @@
+package com.core.function
+
+val transactionList = listOf<Transaction>( // model obj
+    Transaction(
+        "TXN001",
+        "Dara",
+        "001234567",
+        "Sokha",
+        "002345678",
+        "2026-10-01",
+        250.00,
+        "USD",
+        "Transfer",
+        250.00,
+        0.00
+    ),
+
+    Transaction(
+        "TXN002",
+        "Sokha",
+        "002345678",
+        "Vanna",
+        "003456789",
+        "2026-10-02",
+        150.00,
+        "USD",
+        "Transfer",
+        150.00,
+        0.00
+    ),
+
+    Transaction(
+        "TXN003",
+        "Vanna",
+        "003456789",
+        "Dara",
+        "001234567",
+        "2026-10-03",
+        500000.00,
+        "KHR",
+        "Payment",
+        500000.00,
+        0.00
+    ),
+
+    Transaction(
+        "TXN004",
+        "Chantha",
+        "004567890",
+        "Sokha",
+        "002345678",
+        "2026-10-04",
+        75.50,
+        "USD",
+        "Transfer",
+        75.50,
+        0.00
+    ),
+
+    Transaction(
+        "TXN005",
+        "Dara",
+        "001234567",
+        "Chantha",
+        "004567890",
+        "2026-10-05",
+        120000.00,
+        "KHR",
+        "Payment",
+        120000.00,
+        0.00
+    ),
+
+    Transaction(
+        "TXN006",
+        "Sokha",
+        "002345678",
+        "Rith",
+        "005678901",
+        "2026-10-06",
+        300.00,
+        "USD",
+        "Transfer",
+        300.00,
+        0.00
+    ),
+
+    Transaction(
+        "TXN007",
+        "Rith",
+        "005678901",
+        "Vanna",
+        "003456789",
+        "2026-10-07",
+        95.00,
+        "USD",
+        "Payment",
+        95.00,
+        0.00
+    ),
+
+    Transaction(
+        "TXN008",
+        "Chantha",
+        "004567890",
+        "Dara",
+        "001234567",
+        "2026-10-08",
+        750000.00,
+        "KHR",
+        "Transfer",
+        750000.00,
+        0.00
+    ),
+
+    Transaction(
+        "TXN009",
+        "Vanna",
+        "003456789",
+        "Chantha",
+        "004567890",
+        "2026-10-08",
+        450.00,
+        "USD",
+        "Payment",
+        450.00,
+        0.00
+    ),
+
+    Transaction(
+        "TXN010",
+        "Rith",
+        "005678901",
+        "Sokha",
+        "002345678",
+        "2026-10-08",
+        200000.00,
+        "KHR",
+        "Transfer",
+        200000.00,
+        0.00
+    )
+)
+
+val baseTransaction = Transaction(
+    "TXN001",
+    "Dara",
+    "001234567",
+    "Sokha",
+    "002345678",
+    "2026-10-01",
+    250.00,
+    "USD",
+    "Transfer",
+    250.00,
+    0.00
+)
